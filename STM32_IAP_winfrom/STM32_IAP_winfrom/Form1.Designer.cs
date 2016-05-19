@@ -80,6 +80,7 @@
             this.Button_download.TabIndex = 3;
             this.Button_download.Text = "下载程序";
             this.Button_download.UseVisualStyleBackColor = true;
+            this.Button_download.Click += new System.EventHandler(this.Button_download_Click);
             // 
             // label1
             // 
@@ -169,6 +170,7 @@
             this.richTextBox_show.Size = new System.Drawing.Size(330, 58);
             this.richTextBox_show.TabIndex = 13;
             this.richTextBox_show.Text = "";
+            this.richTextBox_show.TextChanged += new System.EventHandler(this.richTextBox_show_TextChanged);
             // 
             // Form1
             // 
@@ -189,8 +191,12 @@
             this.Controls.Add(this.Button_inputDownload);
             this.Controls.Add(this.Button_inputFile);
             this.Controls.Add(this.serialCom1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "STM32_IAP上位机程序（By：lissettecarlr）";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "STM32_IAP上位机程序";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
