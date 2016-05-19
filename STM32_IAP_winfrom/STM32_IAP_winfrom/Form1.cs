@@ -364,6 +364,7 @@ namespace STM32_IAP_winfrom
 
             while (true)
             {
+
                 if (state == 1)
                 {
                     if (RvcMsgError == true)//如果信息包出错了
@@ -386,6 +387,7 @@ namespace STM32_IAP_winfrom
                 {
                     if (allowSend)
                     {
+                        System.Threading.Thread.Sleep(500);//如果不延时 下位机将无法接收到第一个包
                         //label_downState.Text = "下载中";
                         MyInvoke mi = new MyInvoke(updataRvcUI_downloadState);
                         this.BeginInvoke(mi, new Object[] { "下载中" });

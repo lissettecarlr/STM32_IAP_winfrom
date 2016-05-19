@@ -74,7 +74,7 @@
             // 
             // Button_download
             // 
-            this.Button_download.Location = new System.Drawing.Point(280, 115);
+            this.Button_download.Location = new System.Drawing.Point(280, 109);
             this.Button_download.Name = "Button_download";
             this.Button_download.Size = new System.Drawing.Size(89, 23);
             this.Button_download.TabIndex = 3;
@@ -130,7 +130,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(384, 120);
+            this.label2.Location = new System.Drawing.Point(384, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 12);
             this.label2.TabIndex = 9;
@@ -139,7 +139,7 @@
             // label_setbacks
             // 
             this.label_setbacks.AutoSize = true;
-            this.label_setbacks.Location = new System.Drawing.Point(443, 120);
+            this.label_setbacks.Location = new System.Drawing.Point(443, 114);
             this.label_setbacks.Name = "label_setbacks";
             this.label_setbacks.Size = new System.Drawing.Size(23, 12);
             this.label_setbacks.TabIndex = 10;
@@ -148,7 +148,7 @@
             // label_
             // 
             this.label_.AutoSize = true;
-            this.label_.Location = new System.Drawing.Point(490, 120);
+            this.label_.Location = new System.Drawing.Point(490, 114);
             this.label_.Name = "label_";
             this.label_.Size = new System.Drawing.Size(53, 12);
             this.label_.TabIndex = 11;
@@ -157,7 +157,7 @@
             // label_downState
             // 
             this.label_downState.AutoSize = true;
-            this.label_downState.Location = new System.Drawing.Point(549, 120);
+            this.label_downState.Location = new System.Drawing.Point(549, 114);
             this.label_downState.Name = "label_downState";
             this.label_downState.Size = new System.Drawing.Size(41, 12);
             this.label_downState.TabIndex = 12;
@@ -165,9 +165,9 @@
             // 
             // richTextBox_show
             // 
-            this.richTextBox_show.Location = new System.Drawing.Point(280, 159);
+            this.richTextBox_show.Location = new System.Drawing.Point(280, 144);
             this.richTextBox_show.Name = "richTextBox_show";
-            this.richTextBox_show.Size = new System.Drawing.Size(330, 58);
+            this.richTextBox_show.Size = new System.Drawing.Size(330, 73);
             this.richTextBox_show.TabIndex = 13;
             this.richTextBox_show.Text = "";
             this.richTextBox_show.TextChanged += new System.EventHandler(this.richTextBox_show_TextChanged);
